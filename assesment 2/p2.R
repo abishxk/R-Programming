@@ -1,0 +1,6 @@
+arr1=array(c(1,2,3))
+arr2=array(c(4,5,6))
+arr3=array(c(7,8,9))
+arr=append(arr1,arr2,4)
+arr=append(arr,arr3,7)
+print(arr)

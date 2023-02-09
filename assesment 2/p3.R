@@ -1,0 +1,6 @@
+v1=c(1,2,3)
+v2=c(4,5,6)
+v3=c(7,8,9)
+v4=c(10,11,12)
+result=array(c(v1,v2,v3,v3), dim = c(3,4))
+print(result)
