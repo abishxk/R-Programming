@@ -1,0 +1,8 @@
+"","data...read.csv..Users.91790.OneDrive.Desktop.R.practical.week.R.day.2.set.8.exercise2.R."
+"1","print(Is the content a dataframe:)"
+"3","print(number of columns :)"
+"5","print(number of rows :)"
+"7","print(Max salary :)"
+"9","retval=subset(data"
+"11","print(Dimension of CSV file)"
+"13","output.csv)"
