@@ -1,10 +1,14 @@
 n=as.integer(readline(prompt = "Enter an integer :"))
-  for (i in 2:n){
-    for (j in 2:i){
-    if (i%%j == 0){
-    break
-    }else{
+start=2
+flag=0
+  for(i in start:(n-1)){
+    for(j in 1:(i-1)){
+      if(i%%j==0){
+        flag=flag+1
+      }
+    }
+    if(flag==1){
       print(i)
     }
-    }
+    flag=0
   }
