@@ -1,12 +1,11 @@
-fibo<- function(n) {
-  if(n<= 1) {
-    return(n)
-  } else {
-    return(fibo(n-1) + fibo(n-2))
-  }
+n=10
+b=0
+c=1
+if (n>0){
+  for(i in 0:n){
+  a=b+c
+  print(b)
+  b=c
+  c=a
 }
-n = as.integer(10)
-print("Fibonacci sequence:")
-for(i in 0:(n-1)) {
-  print(fibo(i))
-  }
+}
